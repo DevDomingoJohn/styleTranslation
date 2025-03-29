@@ -10,10 +10,9 @@ Vencord plugin that allows you to style your message for fun. You can use this f
 - **Godlike:** For by this transformative decree, thy words shall be utterly transfigured across the infinite expanse of time, resonating with celestial authority, and imbued with puissance that echoes through eternity.
 
 ## Installation
-> [!IMPORTANT]  
-> Inside the `Vencord` folder there is a folder called `src`. If you haven't already, create a folder called `userplugins` inside the `src` folder.
-
-### Clone Installation (Recommended)
+> [!IMPORTANT]
+> If you don't know what you are doing. Highly recommend you check out the [guide to installing custom plugins.](https://discord.com/channels/1015060230222131221/1257038407503446176)
+ 
 1. Navigate to your Vencord installation:
 ```
 cd Vencord/src/userplugins
@@ -30,10 +29,3 @@ pnpm build
 ```
 pnpm inject
 ```
-For more Information about installing custom plugins in Vencord, check the [Official Vencord Docs](https://docs.vencord.dev/installing/custom-plugins/).
-
-### Manual Installation (Not Recommended)
-1. Click the green `<> Code` button at the top right of the repository and select Download ZIP
-2. Unzip the downloaded ZIP file into the `userplugins` folder.
-3. Ensure it's structured as `src/userplugins/styleTranslation`.
-4. Run `pnpm build` in the terminal (command prompt/CMD) and the styleTranslation plugin should be added.
