@@ -29,3 +29,8 @@ pnpm build
 ```
 pnpm inject
 ```
+
+## Usage
+1. Get free api key in https://openrouter.ai/
+2. Paste key in the style translation plugin settings
+3. Enter message in the chat input box, right click and the option 'style translation' on the context menu should be there.
